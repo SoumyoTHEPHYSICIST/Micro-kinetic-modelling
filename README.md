@@ -1,20 +1,20 @@
 # Micro-kinetic-modelling
-# 🔥 Microkinetic Modeling of Methane Pyrolysis (with ZnCl₂ Catalyst)
+# Microkinetic Modeling of Methane Pyrolysis (with ZnCl₂ Catalyst)
 
-Welcome! 👋  
+Welcome!   
 This project dives into the **reaction kinetics of methane (CH₄) pyrolysis**, where methane breaks down into **hydrogen and carbon** — with the help of a **gas-phase ZnCl₂ catalyst** at high temperatures.
 
 It’s part of my computational assignment for **CHE631 (Chemical Reaction Engineering)** at IIT Kanpur.
 
 ---
 
-## 🌟 What's This About?
+## What's This About?
 
 Methane pyrolysis is a cleaner way to make hydrogen without CO₂ emissions — unlike steam reforming. But, it has its own challenges like slow reaction rates and carbon deposition. So we decided to explore how things behave when we throw in **ZnCl₂ as a gas-phase catalyst** and simulate the whole system.
 
 ---
 
-## 🧪 What I Did
+##  What I Did
 
 Here’s the breakdown of the project:
 
@@ -26,7 +26,7 @@ Here’s the breakdown of the project:
 
 ---
 
-## ⚙️ The Setup
+## The Setup
 
 - **Temperature**: 1273 K  
 - **Pressure**: 1 atm  
@@ -37,23 +37,23 @@ We assume an ideal batch reactor system and model the kinetics using rate equati
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
-### 📉 CH₄ Degradation Curve
+### CH₄ Degradation Curve
 - Methane breaks down exponentially with time.
 - Expected behavior: as methane is the primary reactant, it decreases fast.
 
-### 🧠 Degree of Reaction Control Plot
+###  Degree of Reaction Control Plot
 - Identified which steps are actually slowing the process (rate-limiting).
 - Found that some early reactions dominate initially, but others (like steps 11, 13, and 18) gain importance later as stable products form.
 
-### ⏳ Time-Based Behavior
+###  Time-Based Behavior
 - Some intermediate species disappear quickly — they’re unstable and don’t hang around.
 - Final products form gradually and stabilize.
 
 ---
 
-## 🧠 Takeaways
+##  Takeaways
 
 - ZnCl₂ is an effective gas-phase catalyst for methane pyrolysis.
 - DRC is super useful — it highlights which steps are worth focusing on and saves computation time.
@@ -61,10 +61,4 @@ We assume an ideal batch reactor system and model the kinetics using rate equati
 
 ---
 
-## 📁 What's Inside the Repo?
 
-```bash
-📂 Micro-kinetic-modelling/
-├── code/               # Jupyter or Python/Mathematica code (simulations, rate models)
-├── plots/              # All the graphs for CH₄ degradation, DRC, etc.
-└── README.md           # You're reading it now 😄
